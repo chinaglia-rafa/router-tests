@@ -1,5 +1,7 @@
 # RouterMagic
 
+Testes de rotas com o angular para tentar mudar routeParams e manter o restante da URL
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
 ## Development server
