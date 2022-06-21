@@ -1,0 +1,13 @@
+<div class="background fullscreen" [style.background]="'#'+color">
+    <div class="title">
+        <span>HOME</span>
+        <app-selector label="Navegar com Replace" (valueChange)="changeStringReplace($event)" style="position: relative; top: -22px; margin-left: 16px" [value]="color"></app-selector>
+        <app-selector label="Navegar Navigate" (valueChange)="changeNavigate($event)" style="position: relative; top: -22px; margin-left: 16px" [value]="color"></app-selector>
+    </div>
+
+    <div class="center">
+        <h1>Você está em <span style="font-family: monospace;">{{ url }}</span></h1>
+        <button [routerLink]="['/home', color, 'display-solid']" mat-raised-button color="primary">Ir para <span style="font-family: monospace; display: inline-block;">"home/{{color}}/display-solid"</span></button>
+        <button [routerLink]="['/home', color, 'display-gradient']" mat-raised-button color="primary">Ir para <span style="font-family: monospace; display: inline-block;">"home/{{color}}/display-gradient"</span></button>
+    </div>
+</div>

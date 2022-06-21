@@ -1,0 +1,39 @@
+.fullscreen {
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0;
+}
+
+.title {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.title span {
+    font-size: 100px;
+    font-weight: lighter;
+    opacity: 0.2;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    width: 420px;
+    background-color: #333;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    width: 329px;
+    margin: 8px 0;
+}

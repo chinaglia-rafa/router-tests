@@ -1,0 +1,9 @@
+<div class="background fullscreen">
+    <div class="center">
+        <h1>ESCOLHA UMA COR</h1>
+        <div class="flexed">
+            <app-selector (valueChange)="change($event)"></app-selector>
+            <button [routerLink]="['/home', color]" mat-raised-button color="primary">Ir para <span style="font-family: monospace; display: inline-block;">"home/{{color}}"</span></button>
+        </div>
+    </div>
+</div>
